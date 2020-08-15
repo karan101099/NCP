@@ -1,0 +1,125 @@
+/* Importing fonts from fonts.css file */
+@import url(./marquee.css);
+
+/* CSS Variables */
+@import url(./variables.css);
+
+/* Global CSS */
+@import url(./global.css);
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.navbar-brand .img-fluid {
+    max-width: 20%;
+    height: auto;
+    vertical-align: sub;
+}
+
+ul.b {
+    list-style-type: square !important;
+    max-width: 150px;
+}
+
+.purp{
+    margin-left:16px;
+    display: inline-block;
+    background-color: purple;
+    margin-bottom: 15px;
+}
+
+body{
+    background-color: rgb(233, 245, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin-top: 15px;
+}
+
+main>.container-fluid {
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
+}
+
+.navitems {
+    display: inline;
+}
+
+
+fieldset {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend {
+    float: none;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width: auto;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+
+
+.ot{
+    font-style: italic;
+}
+
+.st{
+    font-weight: bold;
+}
+
+.flo{
+    color:black !important;
+}
+
+.flo-element1, .flo-element2 , .flo-element3{
+    height:100px;
+    width:100px;
+    float: left;
+    
+
+}
+.flo-element1{
+    background-color: aqua;
+}
+
+.flo-element2{
+    float: right;
+    background-color: aquamarine;
+}
+.flo-element3{
+    clear: both;
+    color:white;
+    background-color: #000;
+}
+
+
+
+body::-webkit-scrollbar {
+  
+    width: 1.40rem;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background: var(--gradient-colour);
+    /* background: blue; */
+  }
+
+  .hi{
+      background-color: aqua !important;
+  }
+
+  .lo{
+      background-color: burlywood !important;
+  }

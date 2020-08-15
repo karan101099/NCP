@@ -1,0 +1,8 @@
+#sachin {
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#sachin:hover {
+    transform: scale(1.2) rotate(360deg);
+}
